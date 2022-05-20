@@ -1,0 +1,28 @@
+nav{
+  z-index: 99;
+}
+
+.menu{
+  display: none;
+}
+
+.menu a {
+  color: white;
+  margin: 16px;
+  transition: all 0.3s ease-in-out ;
+}
+
+.menu a:hover {
+  transform: scale(1.25);
+  color:cornflowerblue;
+}
+
+@media (min-width: 768px) {
+  .hamburger{
+    display: none;
+  }
+  .menu{
+    display: flex;
+    flex-direction: row;
+  }
+}

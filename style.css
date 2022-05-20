@@ -1,5 +1,7 @@
 @import url(css/cards.css);
 @import url(css/buttons.css);
+@import url(css/hamburger.css);
+@import url(css/nav.css);
 
 body{
   color: white;
@@ -9,22 +11,6 @@ body{
 
 .section{
   min-height: 50vh;
-}
-
-.white-text{
-  color: white;
-  transition: all 0.3s ease-in-out ;
-}
-
-
-.white-text:hover{
-  /* font-size: 24px; */
-  transform: scale(1.25);
-  color:cornflowerblue;
-}
-
-.hero-text{
-  color:white;
 }
 
 .profile-pic{
