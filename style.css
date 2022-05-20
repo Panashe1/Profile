@@ -1,10 +1,16 @@
+@import url(/css/cards.css);
+
 body{
-  color: #5C6B73;
+  color: white;
+  background-color: #434371;
 }
 
-.hero{
-  height: 75vh;
-  background-color: #434371;
+.section{
+  min-height: 80vh;
+}
+
+.white-text{
+  color: white;
 }
 
 .hero-text{
