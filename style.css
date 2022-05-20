@@ -13,12 +13,13 @@ body{
 
 .white-text{
   color: white;
-  transition: ease 0.3s;
+  transition: all 0.3s ease-in-out ;
 }
 
 
 .white-text:hover{
-  font-size: 24px;
+  /* font-size: 24px; */
+  transform: scale(1.25);
   color:cornflowerblue;
 }
 
