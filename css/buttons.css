@@ -1,0 +1,40 @@
+.retro-btn{
+  font-size: 16px;
+  letter-spacing: 2px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+  background-color:cornflowerblue;
+  cursor: pointer;
+  border: 3px solid;
+  padding: 0.25em 0.5em;
+  box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px, 5px 5px 0px 0px;
+  position: relative;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  transition: ease 0.3s;
+}
+
+.retro-btn:hover {
+  font-size: 24px;
+  letter-spacing: 2px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: cornflowerblue;
+  background-color:white;
+  cursor: pointer;
+  border: 3px solid cornflowerblue;
+  padding: 0.25em 0.5em;
+  box-shadow: 1px 1px 0px cornflowerblue, 2px 2px 0px cornflowerblue, 3px 3px 0px cornflowerblue, 4px 4px 0px cornflowerblue, 5px 5px 0px cornflowerblue;
+  position: relative;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+/* @media (min-width: 768px) {
+  .retro-btn.btn{
+    padding: 0.25em 0.75em;
+  }
+} */

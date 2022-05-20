@@ -1,18 +1,34 @@
 @import url(css/cards.css);
+@import url(css/buttons.css);
 
 body{
   color: white;
-  background-color: #434371;
+  background-color: rgb(253, 169, 138);
+  font-family: 'Press Start 2P', cursive;
 }
 
 .section{
-  min-height: 80vh;
+  min-height: 50vh;
 }
 
 .white-text{
   color: white;
+  transition: ease 0.3s;
+}
+
+
+.white-text:hover{
+  font-size: 24px;
+  color:cornflowerblue;
 }
 
 .hero-text{
   color:white;
+}
+
+.profile-pic{
+  width: 350px;
+  height: 350px;
+  object-fit: cover;
+  border-radius: 50%;
 }

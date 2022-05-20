@@ -3,6 +3,6 @@
    transition: ease 0.5s;
 }
 .card:hover{
-  background-color: black;
+  background-color: cornflowerblue;
   color: white;
 }
